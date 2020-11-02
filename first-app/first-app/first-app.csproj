@@ -86,6 +86,9 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <None Include="angular.json" />
+    <None Include="package-lock.json" />
+    <None Include="package.json" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -93,6 +96,8 @@
     <None Include="tsconfig.app.json" />
     <None Include="tsconfig.json" />
     <None Include="tsconfig.spec.json" />
+    <None Include="tslint.json" />
+    <None Include="__ngcc_entry_points__.json" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -100,11 +105,20 @@
   <ItemGroup>
     <Content Include="app.component.html" />
     <Content Include="index.html" />
+    <Content Include="karma.conf.js" />
+    <Content Include="styles.css" />
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="app.component.spec.ts" />
     <TypeScriptCompile Include="app.component.ts" />
+    <TypeScriptCompile Include="app.e2e-spec.ts" />
     <TypeScriptCompile Include="app.module.ts" />
+    <TypeScriptCompile Include="app.po.ts" />
+    <TypeScriptCompile Include="environment.prod.ts" />
+    <TypeScriptCompile Include="environment.ts" />
+    <TypeScriptCompile Include="main.ts" />
+    <TypeScriptCompile Include="polyfills.ts" />
+    <TypeScriptCompile Include="test.ts" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

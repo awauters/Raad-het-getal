@@ -2,10 +2,10 @@
 
 <div *ngIf="aantalBeurten<=0">
   <p>Je beurten zijn om.</p>
-  <button (click)="reset()">Reset</button>
+  <buttonmat-button>(click)="reset()">Reset</button>
 </div>
 
 <input type="number" [disabled]="aantalBeurten<=0" #inputVeld />
-<button [disabled]="aantalBeurten<=0" (click)="valideerGok(inputVeld.value)">Gok</button>
+<buttonmat-button [disabled]="aantalBeurten<=0" (click)="valideerGok(inputVeld.value)">Gok</button>
 
 <p>{{feedback}}</p>
